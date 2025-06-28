@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class Sample extends StatefulWidget {
-  const Sample({super.key});
+class Samples extends StatefulWidget {
+  const Samples({super.key});
 
   @override
-  State<Sample> createState() => _SampleState();
+  State<Samples> createState() => _SamplesState();
 }
 
-class _SampleState extends State<Sample> {
+class _SamplesState extends State<Samples> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
