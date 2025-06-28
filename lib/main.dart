@@ -118,8 +118,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        tooltip: '여기서 테스트함',
+        child: Container(child: Text('hello'),),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
